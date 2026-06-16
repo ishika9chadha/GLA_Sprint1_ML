@@ -1,76 +1,54 @@
-# Student Performance Analysis
-This project analyzes student performance, identify eligible students, and create meaningful insights using feature creation and data visualization.
+# GLA Summer Bootcamp 2026 - Machine Learning
 
-The dataset contains information about:
+This repository contains my projects completed during the bootcamp.
 
-- Student ID
-- Attendance Percentage
-- Assignment Score
-- Quiz Score
-- Lab Completion Status
+The internship covers Python programming, data analysis, NumPy, Pandas, machine learning fundamentals, feature engineering, visualization, and project development.
 
-# Technologies Used
+# Tools Used
+
 - Python
+- Google Colab
+- NumPy
 - Pandas
 - Matplotlib
-- Google Colab
+- GitHub
 
-# Features Created
+# Notebooks Included
 
-# 1. Total Score
+# 1. Student Performance Analysis
 
-It calculates the total marks obtained by each student.
+Topics covered:
+- DataFrames
+- How to access data
+- Feature creation
+- Rule-based filtering
+- Data analysis
+- Data visualization using Matplotlib
 
-Total Score = Assignment Score + Quiz Score
+Features created:
+- Total Score
+- Eligible Students
+- Need Improvement
+- Score Gap
+- Top Batch
 
-# 2. Eligible Students
+# 2. Python Basics
 
-A student is eligible if:
-- Attendance is 75% or above
-- Total Score is 70 or above
-- Lab work is completed
+Topics covered:
+- Variables
+- Lists
+- Dictionaries
+- Loops
+- Conditional Statements
 
-# 3. Need Improvement
+Practiced on student records and simple Python problems.
 
-Students with Total Score below 70 needs improvement and comes under category 'Yes'.
+# 3. NumPy Basics and Data Analysis
 
-# 4. Score Gap
+Topics covered:
+- NumPy Arrays
+- Array Operations
+- Basic Analysis
 
-It shows how many marks a student needs to get a perfect score of 100.
+Worked with datasets and performed numerical computations using NumPy.
 
-Score Gap = 100 - Total Score
-
-# 5. Top Batch
-
-Students with Score Gap less than or equal to 20 are in top batch.
-
-# Rule-Based Analysis:
-
-# Eligible Students
-
-Students who satisfy all eligibility conditions.
-
-# Top Students
-
-Students with Total Score greater than or equal to 90.
-
-# Visualizations:
-
-# Graph 1: Student Performance
-
-Line chart showing Total Score of each student.
-
-# Graph 2: Eligible vs Non-Eligible Students
-
-Bar chart showing the number of eligible and non-eligible students.
-
-# Graph 3: Top Batch Students
-
-Bar chart showing students are in Top Batch or not.
-
-# Key Insights
-
-- Students with higher scores have smaller score gaps.
-- Students scoring below 70 needs improvement.
-- Eligibility depends on attendance, performance, and lab completion.
-- Top Batch students are those whose marks lies between 90 and 100.

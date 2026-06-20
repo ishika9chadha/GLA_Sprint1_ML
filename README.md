@@ -52,3 +52,16 @@ Topics covered:
 
 Worked with datasets and performed numerical computations using NumPy.
 
+# 4. Data Analysis and Matplotlib Basics
+
+Topics covered:
+- Data Cleaning
+- Basic data analysis
+- Column Renaming
+- Missing Value Handling
+- Duplicate rows detection 
+- GroupBy operations
+- Data Visualization using Matplotlib
+
+Dataset Used:
+- Gapminder Dataset
